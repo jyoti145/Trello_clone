@@ -1,4 +1,4 @@
-# ANSWER 1:
+ANSWER 1:
 Board Table:
 
 Fields: board_id, board_name, created_at, etc.
@@ -36,8 +36,7 @@ User-Board Relationship Endpoints:
 
 /api/users/{user_id}/boards (GET, POST)
 /api/users/{user_id}/boards/{board_id} (DELETE)
-
-# ANSWER 2:
+ANSWER 2:
 To implement comments on tasks, we can introduce a new table and API endpoints :
 
 Comment Table:
@@ -53,8 +52,7 @@ Users Endpoints (if not already implemented):
 
 /api/users/{user_id}/comments (GET)
 This endpoint could retrieve all comments made by a specific user.
-
-# ANSWER 3:
+ANSWER 3:
 Error Handling can be done on the basis of development level as follows :
 
 HTTP Status Codes:
