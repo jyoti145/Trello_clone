@@ -35,9 +35,8 @@ For API endpoints:
 5. User-Board Relationship Endpoints:
    - /api/users/{user_id}/boards (GET, POST)
    - /api/users/{user_id}/boards/{board_id} (DELETE)
-   - 
-
-  # ANSWER 2:
+     
+  # ANSWER 2: 
   To implement comments on tasks, we can introduce a new table and API endpoints :
 
 1. Comment Table:
@@ -79,4 +78,4 @@ For API endpoints:
     - Implement versioning for evolving APIs.
 
 8. Using try - catch:
- - on the code level we can put async and error causing codes in try and catch block
+    - on the code level we can put async and error causing codes in try and catch block
