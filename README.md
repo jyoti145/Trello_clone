@@ -56,7 +56,6 @@ To implement comments on tasks, we can introduce a new table and API endpoints :
 # ANSWER 3:
 Error Handling can be done on the basis of development level as follows :
 
-1. 
 1. HTTP Status Codes:
    - Use standard codes for success and failure.
 
